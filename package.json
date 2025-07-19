@@ -1,0 +1,30 @@
+{
+  "name": "node-js-playground",
+  "version": "1.0.0",
+  "description": "```bash\r  cd src\r  node filename\r ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "dev-js": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaNath0777/node-js-playground.git"
+  },
+  "keywords": [
+    "node-js",
+    "file-manipulation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaNath0777/node-js-playground/issues"
+  },
+  "homepage": "https://github.com/AdityaNath0777/node-js-playground#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
